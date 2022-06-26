@@ -77,8 +77,11 @@ a {
   border: transparent;
 }
 
-.secondary-btn {
+.secondary-btn:hover,
+.secondary-btn:focus {
   font-family: inherit;
+  color: #fff;
+  background-color: #2196f3;
 }
 .secondary-btn {
   font-weight: 500;
@@ -329,13 +332,17 @@ a {
   color: #757575;
 }
 /* Оформлення іконок */
+
+/*ul*/
 .tiam-sociai-list {
   display: flex;
   justify-content: center;
 }
+/*li*/
 .social-item-list:not(:last-child) {
   margin-right: 10px;
 }
+/*a*/
 .sotial-link {
   display: flex;
   align-items: center;
@@ -352,6 +359,7 @@ a {
   color: #ffffff;
   background-color: #2196f3;
 }
+/*svg*/
 .sotial-media-icon {
   fill: currentColor;
 }
@@ -407,6 +415,46 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+/* Иконки футера*/
+
+.sotial-icons-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.sotial-icons-list {
+  display: flex;
+  justify-content: center;
+}
+
+.sotial-icons-item {
+  margin: 10px;
+}
+
+.sotial-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.sotial-icons-link:hover,
+.sotial-icons-linkk:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.sotial-media-link {
+  fill: currentColor;
 }
 
 /*Портфолио*/
