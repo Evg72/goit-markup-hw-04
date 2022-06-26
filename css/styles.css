@@ -160,7 +160,7 @@ a {
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
@@ -188,12 +188,17 @@ a {
 .header-tel {
   margin-left: 50px;
 }
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: #2196f3;
 }
 .auth-nav {
   margin-left: auto;
+}
+.auth-nav-contact {
+  fill: currentColor;
+  margin-right: 10px;
 }
 /* Секция уникальный контент*/
 .section-title {
@@ -202,7 +207,11 @@ a {
   padding-bottom: 200px;
   background-image: url(../images/Img-f.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-text {
@@ -231,8 +240,9 @@ a {
   margin-bottom: 30px;
 }
 .section-box-item {
-  color: ;
+  color: #000000;
 }
+
 .section-list-bloc {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -466,7 +476,8 @@ a {
 .address .link:focus {
   color: #2196f3;
 }
-
+.futer-conteiner {
+}
 .futer-adress-item {
   margin-top: 9px;
 }
@@ -484,6 +495,7 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 /* Иконки футера*/
 
 .sotial-icons-text {
@@ -525,6 +537,9 @@ a {
 }
 .sotial-media-link {
   fill: currentColor;
+}
+.all-futer-contacts {
+  display: flex;
 }
 
 /*Портфолио*/
