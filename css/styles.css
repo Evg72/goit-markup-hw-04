@@ -217,7 +217,19 @@ a {
 }
 
 /*Секция особенности*/
-
+.section-list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: 4px;
+  margin-bottom: 30px;
+}
+.section-box-item {
+  color: #000000;
+}
 .section-list-bloc {
   padding-top: 94px;
   padding-bottom: 94px;
