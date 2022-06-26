@@ -200,6 +200,9 @@ a {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/Img-f.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .section-text {
@@ -228,7 +231,7 @@ a {
   margin-bottom: 30px;
 }
 .section-box-item {
-  color: #000000;
+  color: ;
 }
 .section-list-bloc {
   padding-top: 94px;
@@ -375,6 +378,59 @@ a {
 .sotial-media-icon {
   fill: currentColor;
 }
+
+/*Клиенты*/
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-text {
+  min-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.clients-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  justify-content: center;
+}
+.clients-item {
+  display: flex;
+  margin-right: 30px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+
+.clients-link-item {
+  fill: currentColor;
+}
 /*Футер*/
 
 .futer {
@@ -431,6 +487,8 @@ a {
 /* Иконки футера*/
 
 .sotial-icons-text {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
