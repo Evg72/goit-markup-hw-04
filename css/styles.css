@@ -231,7 +231,7 @@ a {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/img-f.jpg");
+    url(../images/img-f.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
