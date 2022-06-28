@@ -489,12 +489,15 @@ a {
 /*Футер*/
 
 .futer {
+  display: flex;
+
   padding-bottom: 60px;
   padding-top: 60px;
-
+  margin-right: 0;
   background-color: #212121;
 }
-
+.futer-conteiner {
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -516,6 +519,8 @@ a {
 /* Address list  */
 .address {
   margin-top: 20px;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .address .link:hover,
@@ -543,6 +548,12 @@ a {
 }
 
 /* Иконки футера*/
+.sotial-icons {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  align-items: baseline;
+}
 
 .sotial-icons-text {
   display: flex;
@@ -656,7 +667,4 @@ a {
 .card-set-item {
   flex-basis: calc((100% - var(--indent) * var(--items)) / var (--items));
   margin: calc(var(--indent) / 2);
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
